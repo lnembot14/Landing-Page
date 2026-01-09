@@ -4,7 +4,7 @@ body{
     display: flex; 
     flex-direction: column;
     margin: 0;
-    height: 100vh;
+    height: 120vh;
     justify-content: space-between;
 }
 
@@ -24,14 +24,40 @@ body{
     color: white;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.bodys{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    max-width: 900px;
+}
+
+.signature{
+    font-family: 'Roboto';
+}
+.qtext{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+    font-family: 'Roboto';
+}
+
 .website{
     font-size: 48px;
     color: white;
-    font-weight: 900;
+    font-weight: 900px;
 }
 
 .text{
     max-width: 370px;
+    gap: 10px;
 }
 
 .description{
@@ -68,4 +94,65 @@ button{
     background-color: #3882F6;
     color: white;
     padding: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+    margin-bottom: 35px;
+    font-family: 'Roboto';
+}
+
+.texts{
+    font-family: 'Roboto';
+    color: grey;
+}
+
+.boxes{
+    display: flex;
+    max-width: 850px;
+    gap: 20px;
+}
+
+.box{
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.itext{
+    color: white;
+    border-color: #3882F6;
+    padding: 20px;
+}
+
+
+.bbox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #3882F6;
+    color: white;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.subutton{
+    border: 4px solid white;
+    border-radius: 11px;
+}
+
+.cta{
+    padding: 100px;
 }
